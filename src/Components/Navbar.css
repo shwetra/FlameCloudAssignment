@@ -1,0 +1,23 @@
+.main_div{
+    background-color: white;
+    border-bottom:1px solid #D9D8D6;
+    display: flex;
+    margin: auto;
+ justify-content: space-around;
+    font-family: hero-new,sans-serif;
+    width: 1192px;
+    height: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    font-size: small;  
+  }  
+  .navbar_1{
+    height:2.5rem;
+    background-color: white;
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
