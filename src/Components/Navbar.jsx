@@ -1,4 +1,4 @@
-import { Menu, MenuButton, MenuList, Button, Flex, Heading, Box } from "@chakra-ui/react";
+import { Menu, MenuButton, Button, Flex, Heading } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import "./Navbar.css";
 
@@ -86,7 +86,7 @@ export default function Navbar() {
                 fontSize="16px"
                 w="100px"
                 h="31px"
-                
+                color="blue"
                 p="0px"
                 letterSpacing="-0.02em"
                 backgroundColor="WHITE"

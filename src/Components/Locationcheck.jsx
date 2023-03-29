@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Text, HStack } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 
 export const Locationcheck = () => {
@@ -100,7 +100,7 @@ export const Locationcheck = () => {
         mt="21px"
         justifyContent="space-between"
         >
-        <Box borderRadius="5PX" backgroundColor="#077BFF"  w="212px" h="39px">Check Location</Box>
+        <Box pt="5px" borderRadius="5PX" backgroundColor="#077BFF"  w="212px" h="39px" color="white">Check Location</Box>
         <Box mr="14px" w="247px" h="34px" color="gray" fontWeight="400" fontSize="14px" lineHeight="17px" letterSpacing="-0.022em">By using our tool, you agree our Terms of Service and Privacy Policy</Box>
       </Flex>
 {/* result */}
@@ -108,12 +108,13 @@ export const Locationcheck = () => {
 
       {/* sec */}
       <Box
-        mt="42px"
         border="3px solid rgba(0, 0, 0, 0.25)"
         borderRadius="5PX"
         w="708px"
         h="166px"
         m="auto"
+        mt="22px"
+        
       >
         <Flex backgroundColor="rgba(217, 216, 214, 0.25)"
         borderBottom="3px solid rgba(0, 0, 0, 0.25)"

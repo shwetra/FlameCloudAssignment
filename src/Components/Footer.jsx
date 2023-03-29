@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { React } from "react";
 
 import {
   Box,
@@ -10,7 +10,6 @@ import {
   SimpleGrid,
   Stack,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 
 export default function Footer() {
