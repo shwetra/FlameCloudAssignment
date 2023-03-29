@@ -4,13 +4,20 @@ import { Box,Text,Flex, Button,SimpleGrid,
     List,
     ListItem,
     ListIcon,
-    useColorModeValue,} from '@chakra-ui/react'
+    useColorModeValue,
+    Image,} from '@chakra-ui/react'
     import { CheckIcon } from '@chakra-ui/icons'
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const Home = () => {
+  const navigate=useNavigate()
+
+  function handle(){
+    navigate("/locationcheck")
+  }
   return (
-    <Box>
+    <Box mb="120px">
         <Text
         m="auto"
         color="gray"
@@ -58,7 +65,7 @@ export const Home = () => {
       </Text>
 
 {/* getstartbutton */}
-<Button p="10px" w="222px" h="47px" borderRadius="10px" gap="5px" backgroundColor="#077BFF" color="white" mt="26px">
+<Button onClick={handle} p="10px" w="222px" h="47px" borderRadius="10px" gap="5px" backgroundColor="#077BFF" color="white" mt="26px">
     Getstart --
 </Button>
 
@@ -334,7 +341,121 @@ export const Home = () => {
 </Flex>
 
 {/* feedback */}
+<Box  w="510px" h="97px" gap="10px" m="auto" mt="80px" pb="141px">
+        <Flex m="auto">
+        <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" pl="46px" >Customers </Text> <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" ml="10px" color="#077BFF">Love</Text> <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600"  ml="10px" color="black">Our Proxies</Text> </Flex>
+        <Text fontSize="18px" lineHeight="21.6px" letterSpacing="-2%" fontWeight="500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus augue sit amet mollis molestie.</Text>
+    </Box>
+<SimpleGrid columns={{base:1,md:1,lg:3}} w="1192px" m="auto" >
+  <Box mb="10px" pb="5px" w="386px" br="5px" border="1px solid #16D113" borderRadius="5px">
+  <Box w="120px" mt="23px" ml="25px">
+            <img  src="https://www.shutterstock.com/image-vector/five-star-feedback-vector-icon-260nw-2005262117.jpg" alt="" />
+        </Box>
+        <Text fontWeight="400" fontSize="14px" lineHeight="16.8px" letterSpacing='-2%' color="black" mt="8px" align="left" ml="25px" >“Integer facilisis metus magna, non eleifend est ultricies sit amet. Aliquam vehicula, orci non hendrerit pretium, nibh ante auctor velit, quis convallis tor et tellus.”</Text>
+        <Flex mt="10px">
+          <Box w="40px" >
+          <Image ml="15px" borderRadius="50%" src="https://images.unsplash.com/photo-1600804889194-e6fbf08ddb39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29vbCUyMGd1eXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" /></Box>
+          <Box>
+        <Text fontWeight="600" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="black" align="left" ml="25px">ECHO DZNS</Text>
+        <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="black" align="left" ml="25px">Web Designer, CreativeProxies</Text>
+        </Box>
+        </Flex>
+  
+  </Box>
+  <Box w="386px" br="5px" mb="10px" pb="5px" border="1px solid #16D113" borderRadius="5px">
+  <Box w="120px" mt="23px" ml="25px">
+            <img  src="https://www.shutterstock.com/image-vector/five-star-feedback-vector-icon-260nw-2005262117.jpg" alt="" />
+        </Box>
+        <Text fontWeight="400" fontSize="14px" lineHeight="16.8px" letterSpacing='-2%' color="black" mt="8px" align="left" ml="25px" >“Integer facilisis metus magna, non eleifend est ultricies sit amet. Aliquam vehicula, orci non hendrerit pretium, nibh ante auctor velit, quis convallis tor et tellus.”</Text>
+        <Flex mt="10px">
+          <Box w="40px" >
+          <Image ml="15px" borderRadius="50%" src="https://images.unsplash.com/photo-1600804889194-e6fbf08ddb39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29vbCUyMGd1eXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" /></Box>
+          <Box>
+        <Text fontWeight="600" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="black" align="left" ml="25px">ECHO DZNS</Text>
+        <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="black" align="left" ml="25px">Web Designer, CreativeProxies</Text>
+        </Box>
+        </Flex>
+  
+  </Box>
+  <Box w="386px" br="5px" mb="10px" pb="5px" border="1px solid #16D113" borderRadius="5px">
+  <Box w="120px" mt="23px" ml="25px">
+            <img  src="https://www.shutterstock.com/image-vector/five-star-feedback-vector-icon-260nw-2005262117.jpg" alt="" />
+        </Box>
+        <Text fontWeight="400" fontSize="14px" lineHeight="16.8px" letterSpacing='-2%' color="black" mt="8px" align="left" ml="25px" >“Integer facilisis metus magna, non eleifend est ultricies sit amet. Aliquam vehicula, orci non hendrerit pretium, nibh ante auctor velit, quis convallis tor et tellus.”</Text>
+        <Flex mt="10px">
+          <Box w="40px" >
+          <Image ml="15px" borderRadius="50%" src="https://images.unsplash.com/photo-1600804889194-e6fbf08ddb39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29vbCUyMGd1eXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" /></Box>
+          <Box>
+        <Text fontWeight="600" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="black" align="left" ml="25px">ECHO DZNS</Text>
+        <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="black" align="left" ml="25px">Web Designer, CreativeProxies</Text>
+        </Box>
+        </Flex>
+  
+  </Box>
+</SimpleGrid>
 
+<Box w="1192px" m="auto" border="1px solid #1E1E1E" borderRadius="5px" mt="250px" bg="#F6FAFF">
+<Box  w="510px" h="97px" gap="10px" m="auto" mt="60px" pb="141px">
+        <Flex m="auto">
+        <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" pl="46px" >Read our </Text> <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" ml="10px" color="#077BFF">Exclusive</Text> <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600"  ml="10px" color="black">Blog</Text> </Flex>
+        <Text fontSize="18px" mt="10px" lineHeight="21.6px" letterSpacing="-2%" fontWeight="500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus augue sit amet mollis molestie.</Text>
+        <Text fontSize="18px" mt="10px" lineHeight="21.6px" letterSpacing="-2%" fontWeight="500" color="#077BFF">Read All Blogs</Text>
+    </Box>
+
+    <SimpleGrid columns={{base:1,md:2,lg:3}} w="1192px" m="auto" p="35px" pb="35px" gap="30px" >
+      <Box mb="15px">
+  <Box w="354px"  h="221px" br="5px" border="1px solid rgba(7, 123, 255, 0.5)" bg="rgba(7, 123, 255, 0.1)" borderRadius="5px">
+  </Box>
+  <Text fontWeight="500" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+  <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+
+  </Box>
+
+  <Box mb="15px">
+  <Box w="354px" h="221px"  br="5px" border="1px solid rgba(7, 123, 255, 0.5)" bg="rgba(7, 123, 255, 0.1)" borderRadius="5px">
+  </Box>
+  <Text fontWeight="500" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+  <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+
+  </Box>
+
+
+  <Box mb="15px">
+  <Box w="354px"  h="221px" br="5px" border="1px solid rgba(7, 123, 255, 0.5)" bg="rgba(7, 123, 255, 0.1)" borderRadius="5px">
+  </Box>
+  <Text fontWeight="500" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+  <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+
+  </Box>
+
+  <Box mb="15px">
+  <Box w="354px"  h="221px" br="5px" border="1px solid rgba(7, 123, 255, 0.5)" bg="rgba(7, 123, 255, 0.1)" borderRadius="5px">
+  </Box>
+  <Text fontWeight="500" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+  <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+
+  </Box>
+
+  <Box mb="15px">
+  <Box w="354px" mb="15px" h="221px" br="5px" border="1px solid rgba(7, 123, 255, 0.5)" bg="rgba(7, 123, 255, 0.1)" borderRadius="5px">
+  </Box>
+  <Text fontWeight="500" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+  <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+
+  </Box>
+
+  <Box mb="15px">
+  <Box w="354px" mb="15px" h="221px" br="5px" border="1px solid rgba(7, 123, 255, 0.5)" bg="rgba(7, 123, 255, 0.1)" borderRadius="5px">
+  </Box>
+  <Text fontWeight="500" fontSize="20px" lineHeight="24px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+  <Text fontWeight="400" fontSize="16px" lineHeight="19.2px" letterSpacing='-2%' color="#111822" align="left" ml="25px">Blog Title appear here</Text>
+
+  </Box>
+  
+</SimpleGrid>
+
+
+</Box>
 
 </Box>
   )

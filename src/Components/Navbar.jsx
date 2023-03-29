@@ -1,8 +1,13 @@
 import { Menu, MenuButton, Button, Flex, Heading } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
+  const navigate=useNavigate()
+  function handle(){
+    navigate("locationcheck")
+  }
   return (
     <div className="main_div">
       <div className="navbar_1">
@@ -108,6 +113,7 @@ export default function Navbar() {
         </Button>
 
         <Button 
+        onClick={handle}
           sx={{
             background: "#077BFF",
             padding: "10px",
