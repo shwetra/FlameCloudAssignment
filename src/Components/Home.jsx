@@ -72,7 +72,7 @@ export const Home = () => {
 </Box>
 
 <Box w={{base:"1080px",lg:"100%"}}>
-<Box m={{base:"auto",lg:"auto"}} w={{base:"460px",lg:"222px"}} h={{base:"186.49px",lg:"91px"}} pt="5px" mt={{base:"55.59px",lg:"27px" }} mb={{base:"72px",lg:"103px" }} backgroundColor="rgba(0, 182, 122, 0.1)"  borderRadius={{base:"20px",lg:"5px"}}>
+<Box m={{base:"auto",lg:"auto"}} w={{base:"460px",lg:"222px"}} h={{base:"186.49px",lg:"91px"}} pt="5px" mt={{base:"55.59px",lg:"27px" }} mb={{base:"72px",lg:"0px" }} backgroundColor="rgba(0, 182, 122, 0.1)"  borderRadius={{base:"20px",lg:"5px"}}>
 <Box w={{base:"330px",lg:"151px"}} h="28.31px"  m="auto" mb="3px" mt="16px" >
     <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg" alt="" /></Box>
     <Box m="auto" mb="3px" w={{base:"330px",lg:"210px"}}  mt={{base:"28px",lg:"-26px"}}><img src="https://uploads-ssl.webflow.com/628ca7512a3d4b82cd74bf49/6295bd5d9b041d03de2738a2_mine-trustpilot-badge.png" alt="" /></Box>
@@ -83,7 +83,7 @@ export const Home = () => {
 <Box w={{base:"1080px",lg:"588px"}} borderBottom="1px solid #D9D8D6"  m="auto" mt="54px" mb="36.36"></Box>
 
 
-<SimpleGrid columns={{base:2,md:2,lg:4}}  w={{base:"1180px",lg:"1392px"}} h={{base:"370.84px",lg:"96px"}} m="auto" gap="30px"   pl={{base:"90px"}} pr={{base:"90px"}}>
+<SimpleGrid columns={{base:2,md:2,lg:4}}  w={{base:"1180px",lg:"1392px"}} h={{base:"370.84px",lg:"96px"}} m="auto" gap="16px"   pl={{base:"90px"}} pr={{base:"90px"}}>
   
     <Flex w={{base:"437px",lg:"285.84px"}} h={{base:"145.84px",lg:"95.28px"}}  border="1px solid #D4EAE8" backgroundColor="#D4EAE8" borderRadius="5px" p="25px">
         <img src="https://ps.w.org/siteorigin-panels/assets/icon-256x256.png?rev=2556869" alt="" />
@@ -182,7 +182,7 @@ export const Home = () => {
 
 
 
-    <Box  w={{base:"1080px",lg:"465px"}} h="97px" gap="10px" m="auto" mt={{base:"200px",lg:"177px"}} pb="141px" mb={{base:"66px",lg:"99px"}}>
+    <Box  w={{base:"1080px",lg:"465px"}} h="97px" gap="10px" m="auto" mt={{base:"200px",lg:"133px"}}  mb={{base:"66px",lg:"0px"}}>
         <Flex m="auto"  w={{ base:"766px",lg:"510px"}}>
         <Text fontSize={{base:"59.31px",lg:"36px"}} lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" pl="46px" >You choose, we </Text> <Text fontSize={{base:"59.31px",lg:"36px"}} lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" ml="10px" color="#077BFF">Deliver!</Text> </Flex>
         <Text w={{ base:"766px",lg:"510px"}} m="auto" fontSize={{base:"29.65px",lg:"18px"}} lineHeight={{base:"35.58px",lg:"21.6px"}} letterSpacing="-2%" fontWeight="500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus augue sit amet mollis molestie.</Text>
@@ -347,14 +347,14 @@ export const Home = () => {
 
 {/* feedback */}
 <Box w={{ base:"1080px"}} m="auto">
-<Box  w={{ base:"766px",lg:"510px"}} h="97px" gap="10px" m="auto" mt="80px" p="15px" pb="141px" >
+<Box  w={{ base:"766px",lg:"510px"}} h="97px" gap="10px" m="auto" mt="80px"   >
         <Flex m="auto">
         <Text fontSize={{base:"59.31px",lg:"36px"}} lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" m="auto"  >Customers </Text> <Text fontSize={{base:"59.31px",lg:"36px"}} lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" ml="-15px" color="#077BFF">Love</Text> <Text fontSize={{base:"59.31px",lg:"36px"}} lineHeight="43.2px" letterSpacing="-2%" fontWeight="600"  ml="10px" color="black">Our Proxies</Text> </Flex>
         <Text fontSize={{base:"29.65px",lg:"18px"}} pt="16.47px" lineHeight={{base:"35.58px",lg:"21.6px"}} letterSpacing="-2%" fontWeight="500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus augue sit amet mollis molestie.</Text>
     </Box>
     </Box>
 
-<SimpleGrid columns={{base:1,md:1,lg:3}} w={{base:"1090px",md:"700px",lg:"1192px"}} m="auto" >
+<SimpleGrid columns={{base:1,md:1,lg:3}} w={{base:"1090px",md:"700px",lg:"1192px"}} m="auto" mt="-60px" >
   <Box  m="auto" mb="28px" mt={{base:"100px"}} pb="46px" w={{base:"666px",lg:"386px"}} br="5px" border="1px solid #16D113" borderRadius="5px">
   <Box w={{base:"180px",lg:"120px"}} mt="23px" ml="25px" pb={{base:"10px"}}>
             <img  src="https://www.shutterstock.com/image-vector/five-star-feedback-vector-icon-260nw-2005262117.jpg" alt="" />
@@ -405,7 +405,7 @@ export const Home = () => {
  
 </SimpleGrid>
 
-<Box w="1192px" m="auto" border="1px solid #1E1E1E" borderRadius="5px" mt="250px" bg="#F6FAFF" >
+<Box w="1192px" m="auto" border="1px solid #1E1E1E" borderRadius="5px" mt="250px" bg="#F6FAFF" mt="250px" >
 <Box  w="510px" h="97px" gap="10px" m="auto" mt="60px" pb="141px">
         <Flex m="auto">
         <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" pl="46px" >Read our </Text> <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600" ml="10px" color="#077BFF">Exclusive</Text> <Text fontSize="36px" lineHeight="43.2px" letterSpacing="-2%" fontWeight="600"  ml="10px" color="black">Blog</Text> </Flex>
@@ -413,7 +413,7 @@ export const Home = () => {
         <Text fontSize="18px" mt="10px" lineHeight="21.6px" letterSpacing="-2%" fontWeight="500" color="#077BFF">Read All Blogs</Text>
     </Box>
 
-    <SimpleGrid columns={{base:2,md:2,lg:3}} w={{base:"100%",lg:"1192px"}} m="auto" p="35px" pb="35px" gap="30px" >
+    <SimpleGrid columns={{base:2,md:2,lg:3}} w={{base:"100%",lg:"1192px"}} m="auto" p="35px" pb="0px" gap="25px" >
     <Box m="auto" mb="15px">
   <Box w={{base:"440px",lg:"354px"}} h={{base:"274.93px",lg:"221px"}}  br="5px" border="1px solid rgba(7, 123, 255, 0.5)" bg="rgba(7, 123, 255, 0.1)" borderRadius="5px">
   </Box>
